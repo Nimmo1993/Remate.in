@@ -1,23 +1,66 @@
+/*header */
 body{
-	background-color: #F8EEE7;
+  background-color: #F8EEE7;
 }
 .edit{
-	width: 120px;
-	border-radius: 500px;}
+  width: 120px;
+  border-radius: 500px;}
 .navbar-nav a {
-	font-family: Cambria, serif;
-	font-size: 20px;
-	line-height: 1.3em;
-	color: #F8E8D9;
-	margin: 9px;
+  font-family: Cambria, serif;
+  font-size: 20px;
+  line-height: 1.3em;
+  color: #F8E8D9;
+  margin: 9px;
 
 }
 
 .navbar-nav a:hover {
-	font-family: Cambria, serif;
-	font-size: 24px;
-	line-height: 1.3em;
+  font-family: Cambria, serif;
+  font-size: 24px;
+  line-height: 1.3em;
 }
 .navbar-nav>u{
   border-right: 1px solid #F8EEE7;
 }
+
+
+/* footer and contact */
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
