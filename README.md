@@ -4,5 +4,5 @@
 
 ## Getting Started
 
-View at (Remate.in)[https://nimmo1993.github.io/Remate.in/]
+View at [Remate.in](https://nimmo1993.github.io/Remate.in/)
 
