@@ -18,13 +18,51 @@
 </head>
 <body>
 <!--HEADER -->
-
-<form class="form-inline">
-          <div class="lg-form mx-auto mt-3  ">
-              <input class="form-control" type="search" placeholder="Search" aria-label="Search" >
-              <button class="btn my-sm-3 btn-md" type="submit"  style="background-color:#F8E8D9; color: purple;"><i class="fa fa-search"></i></button>
+<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #94618E;">
+  <a class="navbar-brand" href="#"><img src="img/vamsi_logo.png" class="edit"></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="basicExampleNav">
+        <!-- <h3 style="color: #F8E8D9; padding-left: 40px; padding-top: 20px; font-family:  'Handlee', serif;" > “YOUR ULTIMATE RESEARCH MATE”</h3> -->
+      <ul class="navbar-nav ml-auto ">
+          <li class="nav-item active ">
+              <a class="nav-link" style="color:#F8E8D9" href="#">Home
+                  <span class="sr-only">(current)</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" style="color:#F8E8D9" href="#">AboutUs</a>
+          </li>
+     <!-- Dropdown -->
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#F8E8D9">Services</a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#" style="color:#F8E8D9">Publication</a>
+                  <a class="dropdown-item" href="#" style="color:#F8E8D9">Mentors</a>
+                  <a class="dropdown-item" href="#" style="color:#F8E8D9">Mates</a>
+              </div>
+          </li>
+          <u></u>
+           <li class="nav-item">
+        <a class="nav-link" href="{{ url('/login') }}" style="color: #F4DEC8;">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('/register') }}"" style="color: #F4DEC8;">Register</a>
+      </li>
+      </ul>
+      <!-- Links -->
+      <!--
+      <form class="form-inline">
+          <div class="md-form mt-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn my-sm-0 btn-secondary" type="submit">search</button>
           </div>
-      </form>
+      </form> -->
+  </div>
+</nav>
+
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="img/video.mp4" allowfullscreen></iframe>
 </div>
