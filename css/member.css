@@ -1,0 +1,78 @@
+.edit{
+  width: 120px;
+  border-radius: 500px;}
+.navbar-nav a {
+  font-family: Cambria, serif;
+  font-size: 20px;
+  line-height: 1.3em;
+  color: #F8E8D9;
+  margin: 9px;
+
+}
+
+.navbar-nav a:hover {
+  font-family: Cambria, serif;
+  font-size: 24px;
+  line-height: 1.3em;
+}
+.navbar-nav>u{
+  border-right: 1px solid #F8EEE7;
+}
+body {
+  color: #FFFFFB;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+section {
+  padding: 15vh 0;
+}
+
+
+
+.one {
+  background:#F4DEC8;
+  position: relative;
+}
+
+.one::after,
+.one::before {
+  position: absolute; 
+  content: '';
+  width: 100px;
+  height: 100px;
+  background:#F4DEC8;
+  bottom: -2em;
+  z-index: 100;
+}
+
+.one::before {
+  right: 50%;
+  transform: skew(0, 20deg)
+}
+
+.one::after {
+  left: 50%;
+  transform: skew(0, -20deg)
+}
+
+
+.two {
+  background: #49274A;
+  position: relative;
+  z-index: 10;
+  clip-path: polygon(0 0, 100% 0, 100% calc(104% - 10vw), 0 100%);
+  margin-bottom: -10vw;
+}
+.under{
+  border-bottom: 1px solid #D3D3D3;
+  margin: 5px;
+}
+
+
+.three {
+  background: #CFB3CC;
+  z-index: -10;
+  position: relative;
+}
