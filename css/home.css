@@ -3,8 +3,8 @@ body{
   background-color: #F8EEE7;
 }
 .edit{
-  width: 120px;
-  border-radius: 500px;}
+  width: 100px;
+  border-radius: 20px;}
 .navbar-nav a {
   font-family: Cambria, serif;
   font-size: 20px;
@@ -22,7 +22,15 @@ body{
 .navbar-nav>u{
   border-right: 1px solid #F8EEE7;
 }
+/*mid section */
 
+.carousel .carousel-item>img {
+  width: 100%;
+}
+ .d-inline.mx-auto.center {
+    text-align: center!important;
+    display:block!important;
+}
 
 /* footer and contact */
 :root {
